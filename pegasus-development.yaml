@@ -19,4 +19,4 @@ wfe:
   use_salary_curve: false
   treat_taxes_as_expenses: false
 source: pegasus-development.yaml
-branch: master
+branch: staging
