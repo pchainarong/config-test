@@ -22,3 +22,4 @@ test:
   property: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAGowaAYJKoZIhvcNAQcGoFswWQIBADBUBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDE3EfrWCy8DtFWHW4wIBEIAnQS1JWgiqxvyBD18mHwNf+P7alHon0WvflZihrtR7uHA+4TRZTwHd'
 source: application.yaml
 branch: staging
+otherproperty: only in application base
