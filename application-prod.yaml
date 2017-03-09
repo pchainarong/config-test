@@ -1,4 +1,7 @@
 wfe:
+  api:
+    key: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDD6bd14QQdsYgrSRAQIBEIA7AopCiiJHlWpM7BUgJ5Nn7fKbBlAra9n82RyuA2XBBqPER/fDH8P6EOfYeqlBMX1Pf9aPve72V/e+bEQ='
+    uri: http://api-uat.morningstar.com/wfe/v5/api/Wferest/
   percentiles:
     - name: optimistic
       percentile: 30
