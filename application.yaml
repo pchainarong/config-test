@@ -20,5 +20,9 @@ wfe:
   taxable_account: Investment Account
   use_salary_curve: false
   treat_taxes_as_expenses: false
+harmony:
+  client:
+    username: morningstaruser
+    password: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDIeYHTffNhHGzA3vRAIBEIA7wMlgNdb8oKsB1zYqxEOAvhyTI9MGaJv8/2qXRrFsjAEn8sM0Jl/n/WHw/gd/2dYk0rwI+sP1P/vkYak='
 source: application.yaml
 branch: master
