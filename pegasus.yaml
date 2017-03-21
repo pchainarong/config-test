@@ -1,9 +1,4 @@
 wfe:
-  percentiles:
-    - name: optimistic
-      percentile: 30
-    - name: pessimistic
-      percentile: 5
   pivotvalue: Total Wealth Including Unowned Balance
   accounts:
     - name: Super Account
