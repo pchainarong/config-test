@@ -21,5 +21,13 @@ wfe:
   taxable_account: Investment Account
   use_salary_curve: false
   treat_taxes_as_expenses: false
+praemium:
+  endpoint:
+    url: 'https://apitest.praemium.biz/public/api'
+  privilege:
+    token-header: 'x-pps-token'
+    token-value: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAJ8wgZwGCSqGSIb3DQEHBqCBjjCBiwIBADCBhQYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAyO7ceCTCrSi8JocRYCARCAWLjEzXIipgGSm4nrovVB4isP5h88EH0PZDo5P0GYqnx7+3v3vgYnsqKiPzVNTwXRiXvESEmEo2vx6GyjwWOwabqYtOJ5YOmFrQkZaFszQi8f4wS/ptX2+jE='
+    version-header: 'x-pps-api-version'
+    version-value: '2017.03.01'
 source: application-qa.yaml
 branch: master
