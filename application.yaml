@@ -24,5 +24,16 @@ harmony:
   client:
     username: morningstaruser
     password: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDIeYHTffNhHGzA3vRAIBEIA7wMlgNdb8oKsB1zYqxEOAvhyTI9MGaJv8/2qXRrFsjAEn8sM0Jl/n/WHw/gd/2dYk0rwI+sP1P/vkYak='
+praemium:
+  endpoint:
+    # Switch this once ready for production
+    #url: 'https://api.praemium.biz/public/api'
+    url: 'https://apitest.praemium.biz/public/api'
+  privilege:
+    token-header: 'x-pps-token'
+    # Token Used is for APITEST endpoint
+    token-value: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAJ8wgZwGCSqGSIb3DQEHBqCBjjCBiwIBADCBhQYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAyO7ceCTCrSi8JocRYCARCAWLjEzXIipgGSm4nrovVB4isP5h88EH0PZDo5P0GYqnx7+3v3vgYnsqKiPzVNTwXRiXvESEmEo2vx6GyjwWOwabqYtOJ5YOmFrQkZaFszQi8f4wS/ptX2+jE='
+    version-header: 'x-pps-api-version'
+    version-value: '2017.03.01'
 source: application.yaml
 branch: master

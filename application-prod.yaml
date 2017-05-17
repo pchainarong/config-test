@@ -25,5 +25,13 @@ greenid:
   endpoint: 'https://au.vixverify.com/Registrations-Registrations/DynamicFormsServiceV3'
   account: morningstar
   password: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAG0wawYJKoZIhvcNAQcGoF4wXAIBADBXBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDE/h97Jvu/HdbEBjlQIBEIAqTx+vzEBWvtaShXqfGjDBdkxKHnYC4lI3nbkefh/uOTkKQKblMG5AfwZJ'
+praemium:
+  endpoint:
+    url: 'https://api.praemium.biz/public/api'
+  privilege:
+    token-header: 'x-pps-token'
+    token-value: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAJowgZcGCSqGSIb3DQEHBqCBiTCBhgIBADCBgAYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAz9Z1pL2Mb1nxf8eNICARCAU/PZtmd9A+CBVEDtICl8sylArkvvn5mQuKbjeNF1axRXR7zblEBF27OK+83QbJ2YxphlIjJxfRh1ZDVCNQfNQvz+eyjI24fSTOj5TgaslMYWmq4d'
+    version-header: 'x-pps-api-version'
+    version-value: '2017.03.01'
 source: application-prod.yaml
 branch: master
