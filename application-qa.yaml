@@ -30,6 +30,6 @@ praemium:
     version-header: 'x-pps-api-version'
     version-value: '2017.03.01'
 fsg:
-  version: 201706
+  version: '201706'
 source: application-qa.yaml
 branch: master
