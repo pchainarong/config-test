@@ -1,2 +1,4 @@
 source: application-jenkins.yaml
 branch: master
+fsg:
+  version: '201706'
