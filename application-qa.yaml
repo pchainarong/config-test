@@ -29,11 +29,17 @@ praemium:
     token-value: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAJ8wgZwGCSqGSIb3DQEHBqCBjjCBiwIBADCBhQYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAyO7ceCTCrSi8JocRYCARCAWLjEzXIipgGSm4nrovVB4isP5h88EH0PZDo5P0GYqnx7+3v3vgYnsqKiPzVNTwXRiXvESEmEo2vx6GyjwWOwabqYtOJ5YOmFrQkZaFszQi8f4wS/ptX2+jE='
     version-header: 'x-pps-api-version'
     version-value: '2017.03.01'
-  portfolio_model:
-    p1: Moderate
-    p2: Balanced
-    p3: Growth
 fsg:
   version: '201706'
+portfolios:
+  p1:
+    code: M0001
+    name: Cautious
+  p2:
+    code: M0002
+    name: Balanced
+  p3:
+    code: M0003
+    name: Growth  
 source: application-qa.yaml
 branch: master

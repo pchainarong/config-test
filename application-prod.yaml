@@ -35,5 +35,15 @@ praemium:
     version-value: '2017.03.01'
 fsg:
   version: '201706'
+portfolios:
+  p1:
+    code: M0001
+    name: Cautious
+  p2:
+    code: M0002
+    name: Balanced
+  p3:
+    code: M0003
+    name: Growth
 source: application-prod.yaml
 branch: master
