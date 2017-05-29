@@ -16,5 +16,16 @@ wfe:
   taxable_account: Investment Account
   use_salary_curve: false
   treat_taxes_as_expenses: false
+portfolios:
+  models:
+    p1:
+      code: ZZ0004
+      name: Cautious
+    p2:
+      code: IB0008
+      name: Balanced
+    p3:
+      code: ZZ0005
+      name: Growth  
 source: application-dev.yaml
 branch: master

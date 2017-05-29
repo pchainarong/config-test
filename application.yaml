@@ -37,5 +37,16 @@ praemium:
     version-value: '2017.03.01'
 fsg:
   version: '201706'
+portfolios:
+  models:
+    p1:
+      code: ZZ0004
+      name: Cautious
+    p2:
+      code: IB0008
+      name: Balanced
+    p3:
+      code: ZZ0005
+      name: Growth  
 source: application.yaml
 branch: master
