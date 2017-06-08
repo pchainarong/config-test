@@ -1,0 +1,50 @@
+wfe:
+  percentiles:
+    - name: optimistic
+      percentile: 50
+#      percentile: 30
+    - name: pessimistic
+      percentile: 30
+#      percentile: 5
+  pivotvalue: Total Wealth Including Unowned Balance
+  accounts:
+    - name: Super Account
+    - name: Investment Account
+  output:
+    values:
+      - ${wfe.pivotvalue}
+  projection:
+    name: Dynamic Request
+    include_spend_down_need_estimate: false
+    use_annuitized_wealth_advice: false
+  taxable_account: Investment Account
+  use_salary_curve: false
+  treat_taxes_as_expenses: false
+harmony:
+  client:
+    username: morningstaruser
+    password: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDIeYHTffNhHGzA3vRAIBEIA7wMlgNdb8oKsB1zYqxEOAvhyTI9MGaJv8/2qXRrFsjAEn8sM0Jl/n/WHw/gd/2dYk0rwI+sP1P/vkYak='
+praemium:
+  endpoint:
+    # Switch this once ready for production
+    #url: 'https://api.praemium.biz/public/api'
+    url: 'https://apitest.praemium.biz/public/api'
+  privilege:
+    token-header: 'x-pps-token'
+    # Token Used is for APITEST endpoint
+    token-value: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAJ8wgZwGCSqGSIb3DQEHBqCBjjCBiwIBADCBhQYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAyO7ceCTCrSi8JocRYCARCAWLjEzXIipgGSm4nrovVB4isP5h88EH0PZDo5P0GYqnx7+3v3vgYnsqKiPzVNTwXRiXvESEmEo2vx6GyjwWOwabqYtOJ5YOmFrQkZaFszQi8f4wS/ptX2+jE='
+    version-header: 'x-pps-api-version'
+    version-value: '2017.03.01'
+fsg:
+  version: '201706'
+portfolios:
+  models:
+    p1:
+      code: ZZ0004
+      name: Cautious
+    p2:
+      code: IB0008
+      name: Balanced
+    p3:
+      code: ZZ0005XXXX
+      name: Growth
