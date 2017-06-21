@@ -21,14 +21,14 @@ wfe:
   use_salary_curve: false
   treat_taxes_as_expenses: false
 salesforce:
-  host: 'https://cs51.salesforce.com'
+  host: 'https://cs14.salesforce.com'
   api:
     accessTokenURI: 'https://test.salesforce.com/services/oauth2/token'
     client:
-      id: 3MVG9PbQtiUzNgN4Ccrd8g6J2.gOowIrWscv9oAWPzfrpt5KmmvrgIFjmQqBORHl8k3vl6iU.epo74kXHis2G
-      secret: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAHEwbwYJKoZIhvcNAQcGoGIwYAIBADBbBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDIFe3tnIagIN6qTMRQIBEIAun8bhZHe8wHh8mDrOiQTb34UVFdTAO/OdkdEG3yAswv/F4bi0pNEgV9c7rSQv0A=='
-    username: api@morningstar.com.pegasus.cpdev1
-    password: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAIEwfwYJKoZIhvcNAQcGoHIwcAIBADBrBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDPs3i0vNDgoHamc+2AIBEIA+EspG9QfRNLl5H4jwAdn6WmEa+TsRYs/FDWPsYZeRwcnm03aYtFQByvf6cnKcFfUcGcJzq1Hb1d6C0d+cbmU='  
+      id: 3MVG9sLbBxQYwWqtI3hcR1Odn10cj4QnsZoLs.AvF_n0qL27z2PnuwmnTrEU1uPKaY.K0Wb4n7nv_0GD0vPnG
+      secret: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAHEwbwYJKoZIhvcNAQcGoGIwYAIBADBbBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDM99z1Y3koTOjwc36gIBEIAuOdcD5ThkTqOt26OMIvCVJUYeoC4Xv/aZlviqBeFw5/kG4AsYobsFO7Sb/qL80g=='
+    username: api@morningstar.com.pegasus.pegdev
+    password: '{cipher}AQECAHhvkz0gC16kOZuuGBYZ6Htij6TlUS+jhESy1JefKLzdWgAAAH8wfQYJKoZIhvcNAQcGoHAwbgIBADBpBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDKayEzXtBnQ+IjQA4AIBEIA8po8ip9RRuISz+wfF/fMSEhySa9j27Yd9MW/HjQHCTTEsCS5UBybSC7mgH8S+ht0xNVYE1qh6B0k+qY8J'  
 harmony:
   client:
     username: morningstaruser
